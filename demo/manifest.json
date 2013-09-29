@@ -1,0 +1,13 @@
+{
+  "name": "HTTP Server Demo",
+  "version": "0",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["launch.js"]
+    }
+  },
+  "permissions": [{
+    "socket": ["tcp-listen::8080"]
+  }]
+}
